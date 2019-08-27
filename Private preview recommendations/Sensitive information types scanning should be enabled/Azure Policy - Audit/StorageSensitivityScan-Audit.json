@@ -5,9 +5,6 @@
       "displayName": "Sensitive information type scanning should be enabled for storage accounts",
       "mode": "All",
       "description": "Information type scanning should be enabled for storage accounts to detect sensitive information that you can then take steps to protect",
-      "metadata": {
-        "category": "Storage"
-      },
       "policyRule": {
         "if": {
           "allOf": [
