@@ -1,10 +1,11 @@
 {
-    "type": "Microsoft.Authorization/policyDefinitions",
-    "name": "audit-sensitive-information-types-scan",
-    "properties": {
+  "type": "Microsoft.Authorization/policyDefinitions",
+  "name": "audit-sensitivity-scan",
+  "properties": {
       "displayName": "Sensitive information type scanning should be enabled for storage accounts",
-      "mode": "All",
       "description": "Information type scanning should be enabled for storage accounts to detect sensitive information that you can then take steps to protect",
+      "mode": "All",
+      "parameters": {},
       "policyRule": {
         "if": {
           "allOf": [
